@@ -1,0 +1,116 @@
+
+/****************************************************************/
+/*                      Basis document styling                  */
+/****************************************************************/
+
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Outfit", sans-serif;
+}
+
+
+/****************************************************************/
+/*                         Header styling                       */
+/****************************************************************/
+
+
+header {
+    position: relative;
+    
+    margin: .5em;
+    padding: .2em;
+
+    background-color: white;
+}
+
+header h1 {
+    position: absolute;
+
+    top: 1.5em;
+}
+
+header h1 img {
+    width: 2.3em;
+    height: auto;
+}
+
+/****************************************************************/
+/*                           Main styling                       */
+/****************************************************************/
+
+
+
+
+
+/*           Article 1            */
+/**********************************/
+main article:first-of-type {
+    background-image: linear-gradient(to bottom right, #1E1638, #251357);
+    color: white;
+
+    padding: 2em;
+    padding-bottom: 7em;
+    margin-top: -1.8em;
+    margin-bottom: 1.5em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    transform: skewY(-7deg);
+}
+
+main article:first-of-type h2 p {
+    display: block;
+}
+
+main article:first-of-type  p {
+    transform: skewY(7deg);
+}
+
+main article:first-of-type h2 {
+    padding-bottom: .5em;
+
+    transform: skewY(7deg);
+}
+
+main article:first-of-type a {
+    background-color: #FF4B37;
+    color: white;
+    text-decoration: none;
+    padding: .5em;
+    padding-right: .8em;
+    padding-left: .8em;
+    margin-top: .6em;
+    margin-left: 1em;
+    border-radius: 20px;
+
+    transform: skewY(7deg);
+}
+
+main img {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-grow: 1;
+}
+
+
+
+/*           Article 2            */
+/**********************************/
+main article:nth-of-type(2) {
+    overflow: scroll;
+    margin-top: -2em;
+}
+
+main article:nth-of-type(5) section img {
+    width: 20%;
+    height: auto;
+}
